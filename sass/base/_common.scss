@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+.contacts,
+.features-list,
+.activity-list,
+.social-network,
+.collection,
+.filters,
+.projects,
+.form-inputs {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.clients {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+
+  outline: 1px solid tomato;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    border-bottom: 1px solid #ececec;
+  }
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  position: relative;
+}
+
+body.modal-open {
+  overflow: hidden;
+}

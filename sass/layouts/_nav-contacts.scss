@@ -1,0 +1,31 @@
+.nav-list__link,
+.contacts__link {
+  text-decoration: none;
+  margin: 0px;
+}
+.nav-list__link.current,
+.nav-list .nav-list__link:hover,
+.nav-list .nav-list__link:focus .contacts .contacts__link:hover,
+.contacts .contacts__link:focus {
+  color: $text-accent;
+  --color3: $text-accent;
+}
+
+// .nav-list__link.current::after {
+//   left: 0;
+//   top: 31px;
+// }
+
+@media screen and (min-width: 768px) {
+  .nav-list__link.current::after {
+    left: 0;
+    top: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-list__link.current::after {
+    left: 0;
+    top: 31px;
+  }
+}

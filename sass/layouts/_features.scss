@@ -1,0 +1,113 @@
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .features-list {
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features-list {
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features-list__card:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features-list__card {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .features-list__card:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .features-list__card:not(:nth-child(2n)) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .features-list__card {
+    width: calc((100% - 30px * 1) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features-list__card:not(:nth-child(4n)) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features-list__card {
+    width: calc((100% - 30px * 3) / 4);
+  }
+}
+
+.features-list__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.features-list__icon {
+  --color2: #2196f3;
+  width: 70px;
+  height: 70px;
+}
+
+.features-list__title {
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.features-list__text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0px;
+}

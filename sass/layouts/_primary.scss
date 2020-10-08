@@ -1,0 +1,42 @@
+.primary__box {
+  display: inline-block;
+  max-width: 360px;
+  margin: 0px auto;
+  padding: 118px 0px;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 696px;
+    padding: 200px 0px;
+  }
+}
+
+.primary {
+  text-align: center;
+  margin: 0px auto;
+}
+.primary {
+  &__title {
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .primary__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+  }
+}

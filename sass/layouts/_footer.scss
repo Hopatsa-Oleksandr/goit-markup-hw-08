@@ -1,0 +1,44 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $header-footer;
+}
+.footer > {
+  .flex {
+    align-items: baseline;
+  }
+}
+.footer-contacts {
+  margin-bottom: 60px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    min-width: 232px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    margin-right: 70px;
+    text-align: start;
+  }
+}
+
+.footer-social {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .footer-social {
+    margin-bottom: 0;
+    padding-top: 5px;
+    min-width: 206px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .container--footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}

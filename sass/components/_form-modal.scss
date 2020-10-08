@@ -1,0 +1,40 @@
+// .backdrop {
+//   .form-field {
+//     display: block;
+//     position: relative;
+//   }
+// }
+// .form-field {
+//   .form-label {
+//     color: var(--secondary);
+//     font-size: 14px;
+//     line-height: 16px;
+//     letter-spacing: 0.01em;
+//     position: absolute;
+//     top: 50%;
+//     left: 40px;
+//     transform: translateY(-50%);
+//     transition: transform 250ms linear;
+//   }
+// }
+// .form-backdrop {
+//   top: 20%;
+
+//   -webkit-transform: translate(-50%, -50%);
+//   transform: translate(-50%, -50%);
+//   width: 528px;
+//   height: 581px;
+//   position: fixed;
+//   left: 50%;
+//   padding: 40px;
+//   background-color: #ffffff;
+//   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+//     0px 1px 3px rgba(0, 0, 0, 0.12);
+//   border-radius: 4px;
+// }
+
+// @media screen and (min-width: 1200px) {
+//   .form {
+//     display: inline-flex;
+//   }
+// }
