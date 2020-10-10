@@ -19,7 +19,7 @@
 @media screen and (min-width: 768px) {
   .navigation-list__link.current::after {
     left: 0;
-    top: 24px;
+    top: 22px;
   }
 }
 
@@ -27,5 +27,12 @@
   .navigation-list__link.current::after {
     left: 0;
     top: 31px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navigation-list__link.current::after {
+    left: 0;
+    top: 8px;
   }
 }
