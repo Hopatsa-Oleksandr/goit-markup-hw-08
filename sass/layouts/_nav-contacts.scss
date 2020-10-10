@@ -11,11 +11,6 @@
   --color3: $text-accent;
 }
 
-// .navigation-list__link.current::after {
-//   left: 0;
-//   top: 31px;
-// }
-
 @media screen and (min-width: 768px) {
   .navigation-list__link.current::after {
     left: 0;
